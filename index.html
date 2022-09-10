@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="contact">
+        <div class="contact-body">
+            <div class="contact-header">
+                <h2>REGIATRATION FORM</h2>
+            </div>
+            <form id="user_form">
+                <div class="input-box">
+                    <span class="contact-fonts"><i class="fa fa-user"></i></span>
+                    <input type="text" id="name" name="name" placeholder="Name" required="required">
+                </div>
+                <div class="input-box">
+                    <span class="contact-fonts"><i class="fa fa-envelope"></i></span>
+                    <input type="email" id="email" name="email" placeholder="Email" required="required">
+                </div>
+                <div class="input-box">
+                    <input type="password" id="password" name="password" placeholder="Password" required="required">
+                </div>
+                <div class="input-box">
+                    <input type="date" id="dob" name="dob" placeholder="Date Of Birth" required="required">
+                </div>
+                <div class="input-box">
+                    <div class="inside">
+                        <input type="checkbox" id="checkbox" name="checkbox">
+                        <label for="checkbox">Accept Terms & Conditions</label>
+                    </div>
+                </div>
+                <div class="submit">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="some">
+        <div class="none">
+            <h2 class="h2">Entries</h2>
+            <div class="divide" id="user-entries"></div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
